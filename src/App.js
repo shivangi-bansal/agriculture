@@ -8,6 +8,7 @@ import Header from './component/header'
 import About from './component/about'
 import Contact from './component/contact'
 import Main from './component/Main'
+import ProductList from './component/productlist'
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,7 @@ function App() {
         <Route exact  path="/about" component={About}/>
 
       </Switch>
-      
+      <ProductList/>
      <Footer/>
     </div>
   );

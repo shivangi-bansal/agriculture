@@ -54,7 +54,7 @@ export default class Footer extends React.Component {
                 </div>
                 <div class="w3_agileits_footer_copy">
                     <div class="container">
-                        <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+                        <p>Shivangi@shivangi.com</p>
                 </div>
             </div>
 

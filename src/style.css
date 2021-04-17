@@ -488,7 +488,7 @@ button.close {
 /*-- //banner-bottom --*/
 /*-- welcome --*/
 .welcome,.newsletter,.about-bottom,.services-bottom{
-	padding:5em 0;
+    padding: 3rem 5em 5rem 0;
 }
 .agileits_w3layouts_head{
 	text-align:center;
@@ -1072,6 +1072,7 @@ figure.agileits_effect_moses:hover img {
 /*-- //about --*/
 /*-- about-bottom --*/
 .about-bottom{
+	background-color: black;
 	/* background: url(/images/9.jpg) no-repeat 0px 0px; */
     background-size: cover;
     -webkit-background-size: cover;
@@ -1081,6 +1082,26 @@ figure.agileits_effect_moses:hover img {
     background-attachment: fixed;
 	text-align: center;
 }
+.footer1.container-fluid {
+    background: #f5f5f5;
+    padding-bottom: 20px;
+
+}
+.footer1 ul li a {
+    color: #2f2c23;
+}
+.footer1 ul {
+    padding-left: 30px;
+    font-family: Arial;
+}
+.footer1 h3 {
+    font-family: Arial;
+    color: #2f2c23;
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
 .about-bottom h3{
     font-size: 2.2em;
     color: #fff;
@@ -1274,7 +1295,7 @@ figure.agileits_effect_moses:hover img {
 /*-- //gallery --*/
 /*-- mail --*/
 .agileits_mail_grid_right1{
-	padding:3em;
+	padding: 0 3em 3rem;
 	background:#f5f5f5;
 }
 .agileits_mail_grid_right1 span i{
@@ -1360,14 +1381,23 @@ figure.agileits_effect_moses:hover img {
     margin: 2em 0;
 }
 .w3_submit{
-	text-align:right;
+	text-align:center;
+}
+
+.inq {
+    font-family: Arial;
+    text-align: center;
+    color: #3e3e3e;
+    border-bottom: 1px solid #f3f3f3;
+    margin: 0;
+    padding: 20px 0px;
 }
 .w3_agileits_mail_right_grid{
 	text-align:center;
 	border:2px solid #aeb09f;
 	padding:5em 2em 2em;
 	position:relative;
-	margin:3em 0 2em;
+	margin:1em 0 2em;
 }
 .w3_agileits_mail_right_grid h4{
 	font-size:1.2em;
