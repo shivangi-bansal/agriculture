@@ -114,7 +114,14 @@ a.w3_agile_vimeo:hover{
 }
 .agile_social_icons_banner {
     float: right;
-    margin:1.6em 2em 0 0;
+    margin:0em 2em 0 0;
+}
+.header1 .w3layouts_breadcrumbs_left ul li i {
+    padding-right: 0.5em;
+    color: white;
+}
+.header1 .w3layouts_breadcrumbs_left ul li a:hover {
+    color: red;
 }
 /*-- menu-navigation --*/
 .shy-menu{
@@ -1068,6 +1075,12 @@ figure.agileits_effect_moses:hover img {
     height: 35px;
     line-height: 35px;
     color: #212121;
+}
+.header1{
+	
+		background: black;
+		padding: 30px;
+	
 }
 /*-- //about --*/
 /*-- about-bottom --*/

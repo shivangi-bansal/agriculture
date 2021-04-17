@@ -9,11 +9,12 @@ import About from './component/about'
 import Contact from './component/contact'
 import Main from './component/Main'
 import ProductList from './component/productlist'
+import Navbar from './component/Navbar'
 function App() {
   return (
     <div className="App">
       {/* <Header/> */}
-    
+    <Navbar/>
       <Switch>
         <Route exact path="/" component={Main}/>
         <Route exact path="/contact" component={Contact}/>
