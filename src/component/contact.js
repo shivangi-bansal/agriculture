@@ -29,7 +29,7 @@ const Contact = () => {
 				<div className="col-md-8 w3_agile_mail_left">
 					<div className="agileits_mail_grid_right1 agile_mail_grid_right1">
 						<form action="#" method="post">
-                        <h3 className="inq">Inquiry Form</h3>
+                        <h3 className="inq1">Inquiry Form</h3>
 							<span>
 								<i>Name</i>
 								<input type="text" name="Name" placeholder="Enter Your Name" required=""/>

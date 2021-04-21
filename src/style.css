@@ -44,7 +44,7 @@ input[type="submit"],input[type="reset"],a{
 }
 /*-- banner --*/
 .banner{
-	/* background: url(/images/banner.jpg) no-repeat 0px 0px; */
+	background: url(images/banner.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -354,6 +354,10 @@ span.char3 {
 .close {
     opacity: 1;
 }
+.inq1{
+	text-align: center;
+    padding: 20px 10px;
+}
 .modal-body p {
     color: #999;
     text-align: left;
@@ -380,7 +384,7 @@ button.close {
 /*-- //bootstrap-pop-up --*/
 /*-- banner-bottom --*/
 .agileits_banner_bottom_left{
-	/* background:url(/images/1.jpg) no-repeat 0px 0px; */
+	background:url(images/1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -388,7 +392,7 @@ button.close {
 	-ms-background-size:cover;
 }
 .agileits_banner_bottom_left1{
-	/* background:url(/images/2.jpg) no-repeat 0px 0px; */
+	background:url(images/2.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -396,7 +400,7 @@ button.close {
 	-ms-background-size:cover;
 }
 .agileits_banner_bottom_left2{
-	/* background:url(/images/3.jpg) no-repeat 0px 0px; */
+	background:url(images/3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -834,8 +838,8 @@ figure.agileits_effect_moses:hover img {
 /*-- //newsletter --*/
 /*-- footer --*/
 .footer{
-    /* background: url(images/8.jpg) no-repeat 0px 0px; */
-	background-color: black;
+    background: url(images/8.jpg) no-repeat 0px 0px;
+	/* background-color: black; */
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -940,6 +944,7 @@ figure.agileits_effect_moses:hover img {
 	line-height:1.8em;
 	color:#fff;
 	font-weight: 600;
+	float: left;
 }
 .w3_agileits_footer_copy p a{
 	color: #a4dd25;
@@ -1082,11 +1087,15 @@ figure.agileits_effect_moses:hover img {
 		padding: 30px;
 	
 }
+.header1 .w3layouts_breadcrumbs_left ul li span {
+    color: white;
+    padding: 0 1.5em;
+}
 /*-- //about --*/
 /*-- about-bottom --*/
 .about-bottom{
-	background-color: black;
-	/* background: url(/images/9.jpg) no-repeat 0px 0px; */
+	/* background-color: black; */
+	background: url(images/9.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1194,7 +1203,7 @@ figure.agileits_effect_moses:hover img {
 /*-- //services --*/
 /*-- services-bottom --*/
 .services-bottom{
-	/* background: url(/images/9.jpg) no-repeat 0px 0px; */
+	background: url(images/9.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1211,6 +1220,58 @@ figure.agileits_effect_moses:hover img {
 .wthree_services_bottom_grid1{
 	position:relative;
 }
+.about-content {
+    padding: 20px 0;
+	margin-bottom: 10px;
+}
+.about-content p {
+    color: #3e3e3e;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: justify;
+    padding: 15px 6px 0px 30px;
+}
+.about-content .product-img {
+    margin-left: 35px;
+    width: 92%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #837575;
+}
+h3.title {
+    font-family: Arial;
+    color: #007013;
+    padding: 0px 30px 10px 36px;
+    margin-top: 5px;
+}
+ul.detail {
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 20px;
+	padding-left: 54px;
+}
+.inq h3 {
+    font-family: Arial;
+    text-align: center;
+    color: #3e3e3e;
+    border-bottom: 1px solid #f3f3f3;
+    margin: 0;
+    padding: 20px 0px;
+}
+@media (min-width: 320px){
+.about-content p {
+    padding: 0px 30px 15px 38px;
+}
+ul.pay {
+    padding-right: 20px;
+	padding-left: 54px;
+}
+.about-content .product-img {
+    margin: 0 auto;
+}
+h3.title {
+    margin-top: 20px;
+}
+}
+
 .wthree_services_bottom_grid1_pos{
 	position: absolute;
     bottom: -9%;
@@ -1398,12 +1459,11 @@ figure.agileits_effect_moses:hover img {
 }
 
 .inq {
-    font-family: Arial;
-    text-align: center;
-    color: #3e3e3e;
-    border-bottom: 1px solid #f3f3f3;
-    margin: 0;
-    padding: 20px 0px;
+	border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    /* margin: calc(50vh - 220px) auto; */
+    padding: 10px 15px;
+	margin: 2px 10px;
 }
 .w3_agileits_mail_right_grid{
 	text-align:center;

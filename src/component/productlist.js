@@ -10,8 +10,8 @@ export default class ProductList extends React.Component {
             <div className="col-md-3">
               <h3>Oil Seeds</h3>
               <ul>
-                <li><a href="./agro-commodities/soybeans.html">Soybeans</a></li>
-                <li><a href="./agro-commodities/natural-whitish-sesame-seeds-99-1.html">Natural Whitish Sesame Seeds(99/1)</a></li>
+                <li><a href="/productDescription">Soybeans</a></li>
+                <li><a href="/">Natural Whitish Sesame Seeds(99/1)</a></li>
                 <li><a href="./agro-commodities/black-sesame-seeds-medicinal-purpose-99-1.html">Black Sesame Seeds (Medicinal Purpose) (99/1)</a></li>
                 <li><a href="./agro-commodities/black-sesame-seeds-medicinal-purpose-98-2.html">Black Sesame Seeds (Medicinal Purpose) (98/2)</a></li>
                 <p><a href="./agro-commodities/index.html">More...</a></p>
