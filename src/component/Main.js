@@ -36,22 +36,8 @@ const Main = () => {
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-			<div class="w3_banner_info">
-				<div class="w3_banner_info_grid">
-					<h3 class="test">I'm Planting A Tree To Teach Me To Gather Strength From My Deepest Roots</h3>
-					<p>Aenean congue vitae mauris sed tristique. Mauris quis nulla at sapien blandit 
-						sollicitudin. Nunc tortor lorem, viverra sed diam ut, blandit efficitur leo.</p>
-					<ul>
-						<li><a href="contact.html" class="w3l_contact">Contact Us</a></li>
-						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Read More</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="thim-click-to-bottom">
-				<a href="#welcome_bottom" class="scroll">
-					<i class="fa  fa-chevron-down"></i>
-				</a>
-			</div>
+			
+			
 		
 
 
@@ -109,6 +95,90 @@ const Main = () => {
 	</div>
 
 
+
+
+
+	{/* <!-- bootstrap-pop-up --> */}
+	<div className="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div className="modal-dialog" role="document">
+			<div className="modal-content">
+				<div className="modal-header">
+					Germinate
+					<button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div className="modal-body">
+						<img src="/images/17.jpg" alt=" " className="img-responsive" />
+						<p>Ut enim ad minima veniam, quis nostrum 
+							exercitationem ullam corporis suscipit laboriosam, 
+							nisi ut aliquid ex ea commodi consequatur? Quis autem 
+							vel eum iure reprehenderit qui in ea voluptate velit 
+							esse quam nihil molestiae consequatur, vel illum qui 
+							dolorem eum fugiat quo voluptas nulla pariatur.
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+{/* <!-- //bootstrap-pop-up --> */}
+
+
+
+	{/* <!-- bootstrap-pop-up --> */}
+	<div className="modal video-modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal1">
+		<div className="modal-dialog" role="document">
+			<div className="modal-content">
+				<div className="modal-header">
+					shivangi
+					<button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div className="modal-body">
+						<img src="/images/17.jpg" alt=" " className="img-responsive" />
+						<p>Ut enim ad minima veniam, quis nostrum 
+							exercitationem ullam corporis suscipit laboriosam, 
+							nisi ut aliquid ex ea commodi consequatur? Quis autem 
+							vel eum iure reprehenderit qui in ea voluptate velit 
+							esse quam nihil molestiae consequatur, vel illum qui 
+							dolorem eum fugiat quo voluptas nulla pariatur.
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+{/* <!-- //bootstrap-pop-up --> */}
+
+
+
+	{/* <!-- bootstrap-pop-up --> */}
+	<div className="modal video-modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2">
+		<div className="modal-dialog" role="document">
+			<div className="modal-content">
+				<div className="modal-header">
+					shivangi1
+					<button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div className="modal-body">
+						<img src="/images/20.jpg" alt=" " className="img-responsive" />
+						<p>Ut enim ad minima veniam, quis nostrum 
+							exercitationem ullam corporis suscipit laboriosam, 
+							nisi ut aliquid ex ea commodi consequatur? Quis autem 
+							vel eum iure reprehenderit qui in ea voluptate velit 
+							esse quam nihil molestiae consequatur, vel illum qui 
+							dolorem eum fugiat quo voluptas nulla pariatur.
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+{/* <!-- //bootstrap-pop-up --> */}
 
 
 
@@ -197,7 +267,7 @@ const Main = () => {
 					<div class="agileinfo_services_bottom_grid2">
 						<p>Quisque faucibus scelerisque eros, molestie tristique lacus posuere in.</p>
 						<div class="agileits_w3layouts_learn_more hvr-radial-out">
-							<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+							<a href="#" data-toggle="modal" data-target="#myModal1">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -211,7 +281,7 @@ const Main = () => {
 					<div class="agileinfo_services_bottom_grid2">
 						<p>Quisque faucibus scelerisque eros, molestie tristique lacus posuere in.</p>
 						<div class="agileits_w3layouts_learn_more hvr-radial-out">
-							<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+							<a href="#" data-toggle="modal" data-target="#myModal2">Read More</a>
 						</div>
 					</div>
 				</div>
